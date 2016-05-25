@@ -5,7 +5,7 @@ from urllib2 import URLError
 
 class ZabbixAPI(object):
 	def __init__(self):
-		self.url = 'http://192.168.45.237/zabbix/api_jsonrpc.php'
+		self.url = 'http://yourdomain/zabbix/api_jsonrpc.php'
 		self.user = 'Admin' //default
 		self.password = 'zabbix'
 		self.header = {"Content-Type":"application/json"} 
